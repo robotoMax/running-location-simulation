@@ -18,7 +18,7 @@ public class DefaultPositionService implements PositionService{
 
 //    private static final Logger LOGGER = LoggerFactory.getLogger(DefaultPositionService.class);
 
-    @Value("${com.ross.running.location.distribution}")
+    @Value("${com.stuart.running.location.distribution}")
     private String runningLocationDistribution;
 
     @Autowired

@@ -23,5 +23,6 @@ public class RunningLocationUpdaterSink {
         CurrentPosition position = this.objectMapper.readValue(input, CurrentPosition.class);
         log.info("Current position "+position.getRunningId());
         // push this position to front-end
+
     }
 }
